@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filme</title>
+    <link rel="stylesheet" href="filme.css">
+
+</head>
+
+<body>
+    <div class="fundo">
+        <div class="Base">
+            <div class="conteudo">
+
+                <div class="texto">
+                    <div class="ifpi"><img id="ifpi" src="ifpi.png" alt=""></div>
+                    <h1 id="tema">Top Gun: Maverick</h1>
+
+                    <div class="info">
+                        <p id="data">2022 </p>
+                        <p id="tipo">ACTION, DRAMA </p>
+                        <p id="tempo"> 130 MIN</p>
+                    </div>
+                    <p id="bio">After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell
+                        is
+                        where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in
+                        rank that would ground him.</p>
+                    <div id="DivBusca">
+                        <button id="busca" onclick="clicou()">
+                            <img id="lupa" src="lupa.png" alt="">
+                        </button>
+
+                        <div id="input" class="input">
+                            <input id="pesquisa" type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="img"><img id="img" src="TopGun.jpg " alt=""></div>
+        <script src="filme.js"></script>
+
+
+    </div>
+
+
+</body>
+
+</html>
