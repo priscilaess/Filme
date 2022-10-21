@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-color: black;
+    position: relative;
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+}
+
+.conteudo {
+    position: absolute;
+    width: 1191px;
+    height: 1024px;
+    background: linear-gradient(89.06deg, #0D1E06 55.86%, rgba(21, 41, 11, 0) 99.17%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Base {
+    width: 1191px;
+    height: 1024px;
+}
+
+.img {
+    width: 786px;
+    height: 1024px;
+}
+
+.info {
+    gap: 4.9rem;
+    display: flex;
+
+}
+
+#tema {
+    color: #FFFFFF;
+    font-size: 100px;
+}
+
+#bio {
+    color: #CAB9B9;
+    font-size: 38px;
+    width: 800px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img {
+    width: 786px;
+    height: 1024px;
+}
+
+#img[src="caraTriste.svg"] {
+    height: auto;
+    width: 385px;
+}
+
+#data {
+    color: #CE171F;
+    font-size: 38px;
+}
+
+#tipo {
+    color: #CAB9B9;
+    font-size: 38px;
+}
+
+#tempo {
+    color: #CE171F;
+    font-size: 38px;
+}
+
+#busca {
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    background-color: #ce1715
+}
+
+
+
+
+#lupa {
+    width: 60px;
+    height: 60px;
+    transition: all 1s;
+    cursor: pointer;
+}
+#lupa:hover{    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);}
+
+.ifpi {
+    width: 50px;
+    height: 148px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.texto {
+
+    width: 1000px;
+    height: 904px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#pesquisa {
+    /* transition: all 1s; */
+    position: absolute;
+    width: 352px;
+    height: 57px;
+    background-color: rgba(35, 28, 28, 0.2);
+    font-size: 30px;
+    color: #FFFFFF;
+    border-radius: 0px 50px 50px 0px;
+    border: 0;
+
+
+}
+/* #pesquisa:hover{-webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg)} */
+
+
+.pesquisa1 {
+    display: flex;
+
+    height: 100px;
+    width: 543px;
+    background-color: #CE171F;
+    border-radius: 50px 50px 50px 50px;
+    border: 0px;
+}
+
+
+.input {
+
+    width: 443px;
+    height: 100px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa1 .input {
+    display: flex;
+}
